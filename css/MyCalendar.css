@@ -1,0 +1,88 @@
+/* 전체 캘린더 스타일 지정 */
+.MyCalendar {
+    width: 100%;
+    float: right;  
+    margin-bottom: 50px;
+}
+.calendar_container {
+    display: inline-flex;
+    margin-top: 40px;
+    width: 100%;
+}
+.calendar_left {
+    width: 30%;
+}
+.calendar_right {
+    width: 70%;
+}
+
+/* 일요일 날짜: 빨간색 */
+.fc-day-sun a {
+    color: red;
+}
+  
+/* 토요일 날짜: 파란색 */
+.fc-day-sat a {
+    color: blue;
+}
+
+/*월요일 날짜: 파란색 */
+.fc-day-mon a {
+    color: black;
+}
+
+/*화요일 날짜: 파란색 */
+.fc-day-tue a {
+    color: black;
+}
+
+/*수요일 날짜: 파란색 */
+.fc-day-wed a {
+    color: black;
+}
+
+/*목요일 날짜: 파란색 */
+.fc-day-thu a {
+    color: black;
+}
+
+/*금요일 날짜: 파란색 */
+.fc-day-fri a {
+    color: black;
+}
+
+/*  버튼 스타일 */
+.schedule_management {
+    width: 13vw;
+    height: 7vh;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-style: normal;
+    font-family: "BMJUA";
+    color: white;
+    border: none;
+    background: #00458f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.alram {
+    background-color: rgba(218, 235, 248, 0.6);
+    height: 100vh;
+    margin-top: 50px;
+    border: 1px gray;
+    border-radius: 20px;
+}
+.alram h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 2vh;
+    padding-bottom: 7vh;
+}
+.alram p {
+    font-size: 17px;
+    font-weight: bold;
+}
