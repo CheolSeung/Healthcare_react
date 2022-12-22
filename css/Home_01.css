@@ -1,0 +1,96 @@
+* {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home_all {
+    width: 100%;
+    height: 631px;
+    max-height: 688px;
+}
+
+.home1_form {
+    width: 39%;
+    padding-top: 140px;
+    padding-left: 160px;
+    position: absolute; 
+}
+
+.home2_form {
+    padding-left: 250px;
+}
+
+.home_btn {
+    width: 250px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-style: normal;
+    font-family: "BMJUA";
+    color: white;
+    background-color: #00458f;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.home_btn:hover{
+    background: #007bff;
+}
+
+.Home_img {
+    width: 100%;
+    float: right;
+}
+.Home_img img {
+    width:100%;
+    display: block;
+    margin-left: auto;
+    /* padding-top: 20px; */
+}
+
+.home1_form h1 {
+    color: #00458f;
+    width: 65vw;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.home1_form h5 {
+    width: 38vw;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.home_container{
+    width: 70%;
+    /* height: 80%; */
+    position: relative;
+    left: 15%;
+    /* top: 50%; */
+}
+.bloth{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.charfooter{
+    text-align: center;
+    word-spacing: 22px;
+    font-size: larger;
+    padding: 18px;
+}
+.charfooter hr {
+    width: 70%;
+    margin : auto;
+}
+.chartfooter1 {
+    padding-top: 13px;
+    color: gray;
+}
