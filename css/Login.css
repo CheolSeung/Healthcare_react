@@ -1,0 +1,97 @@
+section {
+  background-color: rgba(218, 235, 248, 0.6);
+  height: 90vh;
+}
+.login_container {
+  background: rgba(173, 206, 241, 0.64);
+  width: 60vw;
+  height: 60vh;
+  display: inline-flex;
+  /* overflow: auto; */
+  text-align: center;
+  border: 0px;
+  border-radius: 20px;
+  position: relative;
+  top: 10vh;
+  left: 20vw;
+}
+.login_left p {
+  font-size: 17px;
+  color: #1a3e77;
+}
+.login_left {
+  width: 60%;
+  overflow: auto;
+}
+.login_left h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1a3e77;
+  /* margin-right: 17vw; */
+  margin-top: 10px;
+  /* margin-bottom: 30px; */
+}
+
+.login_right {
+  width: 50%;
+  float: right;
+}
+.login_right img{
+  position: relative;
+  border: 0px;
+  border-radius: 10px;
+  top: 40px;
+  left: 40px;
+  height: 85%;
+  width: 80%;
+}
+.login_form div {
+  margin-top: 15px;
+  position: relative;
+  /* right: 60px; */
+}
+.ID {
+  width: 50%;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.password {
+  width: 50%;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.signup {
+  width: 50%;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #1a3e77;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.signup:hover {
+  background: radial-gradient(#1a3e77, #081e44);
+}
+.login {
+  width: 50%;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #1a3e77;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.login:hover {
+  background: radial-gradient(#1a3e77, #081e44);
+}
