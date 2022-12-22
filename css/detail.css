@@ -1,0 +1,55 @@
+.detail_title {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.detail_h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.detail_btn {
+    float : right;
+    width: 70px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+.detail_table {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    border : 1px solid black;
+    border-collapse : collapse;
+    text-align: center;
+}
+
+.detail_01 {
+    height: 50px;
+    text-align: center;
+    border : 1px solid black;
+    border-collapse : collapse;
+}
+.detail_01_public {
+    height: 50px;
+    text-align: center;
+    border : 1px solid black;
+    border-collapse : collapse;
+    background-color: #e2e2e2;
+}
+
+.detail_img {
+    width: 18%;
+    border: 1px solid black;
+}
+
+.detail_02 {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px; 
+    padding-bottom: 200px;
+    /* height: 250px; */
+    max-height: 200px;
+    line-height: 55px;
+}
