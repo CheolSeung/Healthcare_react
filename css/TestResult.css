@@ -1,0 +1,128 @@
+.result_bg {
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(218, 235, 248, 0.34);
+}
+
+.result_container {
+    width: 80%;
+    height: 80%;
+    display: inline-flex;
+    margin-top: 4vh;
+    position: relative;
+    left: 10%;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+}
+.result_left .p_set {
+    /* position: relative;
+    left: 2vw; */
+    margin-left: 2vw;
+}
+.result_left p {
+    display: inline-flex;
+    font-size: 20px;
+    /* margin-left: 1vw; */
+}
+.result_container .Red {
+    color: red;
+    font-weight: bold;
+}
+.result_container .Blue {
+    color: blue;
+    font-weight: bold;
+}
+.result_container .Green {
+    color: green;
+    font-weight: bold;
+}
+
+/* 왼쪽 */
+.result_left {
+    width: 50%;
+}
+.result_left .my_hr {
+    width: 70%;
+    border-top: 2px solid gray;
+    left: 7vw;
+    position: relative;
+}
+.result_left h1 { 
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.result_left .bs_level { 
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5vh;
+}
+.danger_h2 {
+    display: inline-flex;
+    position: relative;
+    left: 7vw;
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+    color: red;
+}
+.danger_h2 h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.danger_h2 .danger {
+    font-size: 60px;
+    margin-right: 2vw;
+}
+
+
+
+/* 오른쪽 */
+.result_right {
+    width: 50%;
+    margin-top: 10vh;
+}
+.result_right img {
+    margin-bottom: 4vh;
+}
+.result_right p {
+    display: inline-flex;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 9vw;
+}
+.result_right button {
+    border: 1px solid black;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #1a3e77;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 14vw;
+    margin-top: 11vh;
+}
+
+
+/* 하단 */
+.TestResult_charfooter {
+    /* background-color: rgba(218, 235, 248, 0.34); */
+    text-align: center;
+    word-spacing: 22px;
+    font-size: larger;
+    padding: 18px;
+    position: relative;
+}
+.TestResult_charfooter hr {
+    width: 70%;
+    margin-top: 2vh;
+}
+
+.TestResult_chartfooter1 {
+    padding-top: 13px;
+    color: gray;
+}
