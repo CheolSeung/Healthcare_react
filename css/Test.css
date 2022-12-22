@@ -1,0 +1,63 @@
+.test_all {
+    width: 100vw;
+    height: 96vh;
+    background-color: rgba(218, 235, 248, 0.34);
+}
+
+.test_container {
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+}
+.test_top {
+    padding-top: 30px;
+}
+
+/* 하단 */
+.test_bot {
+    display: inline-flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+/* 하단 왼쪽 공간 */
+.test_bot_left {
+    width: 50vw;
+    background-color: white;
+}
+.test_bot table {
+    width: 50vw;
+    height: 40vh;
+    text-align: center;
+    font-size: 18px;
+}
+.test_bot table td {
+    border: 1px solid #d6d6d6;
+}
+.table_th {
+    width: 8vw;
+    height: 9vh;
+    color: #1a3e77;
+}
+.table_memo {
+    text-align: left;
+}
+
+/* 하단 오른쪽 공간 */
+.test_bot_right {
+    width: 30vw;
+}
+.test_bot_right button {
+    width: 16vw;
+    height: 7vh;
+    margin-bottom: 5vh;
+    font-size: 18px;
+    position: relative;
+    left: 8vw;
+    top: 21vh;
+    border: 0px;
+    border-radius: 10px;
+    display: block;
+    background-color: #1a3e77;
+    color: white;
+}
