@@ -1,0 +1,34 @@
+.home_all {
+    background-color: rgba(218, 235, 248, 0.34);
+    padding-left: 160px;
+    padding-top: 50vh;
+}
+
+.home1_form {
+    width: 39%;
+    margin-top: 80px;
+}
+
+
+.home_btn {
+    width: 100px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    /* left: 104px; */
+    /* top: 602px; */
+    font-style: normal;
+    font-family: "BMJUA";
+    color: white;
+    border: none;
+    background: #007bff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Home_img {
+    width: 60%;
+    float: right;
+}
