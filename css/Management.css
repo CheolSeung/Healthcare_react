@@ -1,0 +1,74 @@
+.mm_all {
+    width: 100vw;
+    height: 100%;
+    /* background-color: rgba(218, 235, 248, 0.34); */
+}
+.mm_container {
+    width: 80vw;
+    left: 10vw;
+    position: relative;
+    background-color: rgba(218, 235, 248, 0.34);
+    border: 0px;
+    border-radius: 50px;
+    /* background-color: white; */
+}
+.mm_title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(21, 97, 147);
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+.mm_title {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+.mm_container hr {
+    margin-bottom: 4vh;
+    margin-top: 3vh;
+}
+
+
+.image_title {
+    color: rgb(21, 97, 147);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.manage_img_div {
+    height: 20vh;
+}
+.manage_img_div p {
+    font-size: 18px;
+}
+
+.manage_img {
+    float: left;
+    width: 230px;
+    height: 140px;
+    margin-right: 5vw;
+}
+
+.manage_container div {
+    height: 20vh;
+    width: 1000px;
+}
+
+.manage_charfooter {
+    text-align: center;
+    word-spacing: 22px;
+    font-size: larger;
+    padding: 18px;
+    position: relative;
+}
+.mmfooter_hr {
+    position: relative;
+    width: 80vw;
+    left: 10vw;
+}
+.manage_chartfooter1 {
+    padding-top: 13px;
+    color: gray;
+}
