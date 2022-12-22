@@ -1,0 +1,126 @@
+section {
+    background-color: rgba(218, 235, 248, 0.6);
+    height: 90vh;
+}
+.join_container {
+    background: rgba(173, 206, 241, 0.64);
+    width: 60vw;
+    height: 60vh;
+    display: inline-flex;
+    /* overflow: auto; */
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    top: 10vh;
+    left: 20vw;
+}
+.join_left {
+    width: 60%;
+    overflow: auto;
+}
+.join_left h1 {
+    text-align: center;
+    color: #1a3e77;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.join_right {
+    width: 50%;
+}
+
+.join_right .note{
+    position: relative;
+    border: 0px;
+    border-radius: 10px;
+    top: 40px;
+    height: 85%;
+    width: 80%;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.form_class div {
+    margin-top: 18px;
+}
+.form_class p {
+    padding-left: 5vw;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #1a3e77;
+}
+
+.note_title {
+    width: 70%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    /* text-align: center; */
+    padding-left: 20px;  
+    font-size: 16px;
+}
+.start_day {
+    width: 70%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    /* text-align: center; */
+    padding-left: 20px;  
+    font-size: 16px;
+}
+.end_day {
+    width: 70%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    /* text-align: center; */
+    padding-left: 20px;  
+    font-size: 16px;
+}
+.memo_complete_btn {
+    width: 50%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #1a3e77;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.memo_complete_btn:hover {
+    background: radial-gradient(#1a3e77, #081e44);
+}
+.form_class .memo_complete {
+    margin-top: 30px;
+    /* margin-bottom: 50px; */
+}
+
+.join_right .note {
+    text-align: left;
+    padding-top: 1vh;
+}
+
+
+/* 하단 */
+.join_charfooter{
+    text-align: center;
+    word-spacing: 22px;
+    font-size: larger;
+    padding: 18px;
+    position: relative;
+    top: 17vh;
+}
+.join_charfooter hr {
+    width: 70%;
+    margin : auto;
+}
+.join_chartfooter1 {
+    padding-top: 13px;
+    color: gray;
+}
